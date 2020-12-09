@@ -14,6 +14,12 @@
   => python3.x 버전을 사용 불가
 - pip(or conda) install fabric3 (O)
 
+# 에러 체크
+- 리눅스상에서
+- $ tail -f /var/log/apach2/error.log
+- 위의 명령어를 실행하고 모니터링하면서 문제점 찾아서 수정
+- 수정 -> git에 반영 -> $ fab deploy
+
 # github 사용
 1. github.com 접속 후 저장소 생성
 2. 로컬 PC에서 git 명령어를 이용하여 적절한 위치 저장소를 다운로드
